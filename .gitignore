@@ -1,0 +1,59 @@
+HELP.md
+
+### Compiled output ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+src/main/resources/public/
+
+### Frontend Dependencies ###
+src/frontend/node_modules/
+
+### Profiling files ###
+src/frontend/chrome-profiler-events*.json
+chrome-profiler-events*.json
+
+### IDEs and Editors ###
+bin/
+*.log
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.c9/
+*.launch
+.settings/
+.idea
+*.iws
+*.iml
+*.ipr
+*.sublime-workspace
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+!.vscode/settings.json
+.history/*
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+### System Files ###
+.DS_Store
+Thumbs.db
+/.apt_generated_tests/
